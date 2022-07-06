@@ -1,0 +1,233 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.Top-banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.363),rgba(0, 0, 0, 0.9)), url(images/donation14.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.Top-banner-details{
+    line-height: 1.5rem;
+    padding-top: 4rem ;
+    text-align: center;
+}
+.Top-banner-details h1{
+    line-height: 3rem;
+    font-size: 2.5rem;
+    color: white;
+}
+.Top-banner-details p{
+    color: white;
+    margin-bottom: 2rem;
+    padding: 0rem 14rem;
+    text-align: center;
+}
+.Organization-title{
+    color: rgb(137, 226, 4);
+    font-weight: bold;
+}
+.anchor{
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    color: white;
+    background-color: rgb(121, 226, 50);
+    border-radius: 4rem;
+}
+.Donation-area{
+    height: 500px;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+.Donation-details h2{
+    font-size: 2rem;
+    font-weight: .2rem;
+    opacity: .8;
+}
+.Donation-details p{
+    font-size: .9rem;
+    opacity: .8;
+    text-align: center;
+    padding: 0rem 15rem;
+}
+.Donation-amount{
+    margin: 3.5rem auto;
+    font-size: 1rem;
+    opacity: .7;
+    display: flex;
+    justify-content: center;
+}
+.Donation-amount h3{
+    margin: 0rem 2rem;
+    padding: 2rem 2rem;
+    background-color: rgba(220, 220, 220, 0.329);
+    border-radius: 1rem;
+}
+.Donation-amount>.selected-amount{
+    background-color: rgba(172, 255, 47, 0.397);
+    border: 2px solid rgb(80, 129, 5);
+}
+.Donation-input{
+    margin: 0rem 15rem;
+}
+.Donation-input input{
+    border: none;
+    opacity: .6;
+    text-align: center;
+}
+.Donation-input hr{
+    opacity: .5;
+}
+.Donation-input a{
+    margin: 1rem;
+    display: inline-block;
+    padding: 1rem 2rem ;
+}
+.Donation-plan{
+    padding: 0 4rem;
+}
+.Donation-plan-title{
+    text-align: center;
+}
+.Donation-plan h2{
+    font-size: 2rem;
+    font-weight: .2rem;
+    opacity: .8;
+}
+.Donation-plan-title p{
+    font-size: .9rem;
+    opacity: .6;
+    text-align: center;
+    padding: 0rem 15rem;
+}
+.Donation-plan-details{
+    display: flex;
+    margin: 4rem 2rem;
+}
+.Donation-plan-details img{
+    width: 3rem;
+    opacity: .7;
+}
+.Donation-plan-details h4{
+    font-size: 1rem;
+    opacity: .7;
+}
+.Donation-plan-details p{
+    opacity: .8;
+    text-align: left;
+}
+.Donation-plan-details div{
+    margin: 0 1rem;
+    padding: 2.5rem 2rem;
+    border-radius: .8rem;
+}
+.bus{
+    background-color: rgba(255, 192, 203, 0.568);
+}
+.medicine{
+    background-color: rgba(144, 238, 144, 0.541);
+}
+.clothe{
+    background-color: rgba(135, 207, 235, 0.616);
+}
+.News{
+    margin-top: 10rem ;
+    text-align: center;
+    height: 650px;
+    width: 100%; 
+}
+.News h2{
+    font-size: 2rem;
+    font-weight: .2rem;
+    opacity: .8;
+}
+.News-tabs{
+    display: flex;
+    padding: 0rem 2rem ;
+}
+.News-tabs h4{
+    margin-bottom: -1rem;
+    font-size: 1rem;
+    opacity: .8;
+}
+.News-tabs p{
+    line-height: 1.5rem;
+    opacity: .6;
+    text-align: center;
+    padding: 0rem 2rem;
+    margin-bottom: 4rem;
+}
+.News-tabs img{
+    width: 23rem;
+    height: 12rem;
+}
+.News-tabs div{
+    margin: 2rem 2rem;
+    padding-bottom: 4rem;
+    background-color: rgba(240, 243, 247, 0.856);
+    border-radius: 1rem;
+    box-shadow:  5px 10px rgba(128, 128, 128, 0.432);
+}
+.News-tabs a{
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(102, 255, 0)  ;
+}
+.Subscription-area{
+    margin-top: 4rem;
+    padding: 4rem 5.5rem;
+}
+.Subscription-details{
+    text-align: center;
+}
+.Subscription-details h2{
+    font-size: 2rem;
+    font-weight: .2rem;
+    opacity: .8;
+}
+.Subscription-details P{
+    font-size: .9rem;
+    opacity: .6;
+    text-align: center;
+    padding: 0rem 15rem;
+}
+.Subscription-input{
+    text-align: center;
+    background-color: rgba(252, 232, 203, 0.692);
+    margin: 4rem 15rem;
+    padding: 4rem  8rem;
+}
+.Subscription-area input{
+    border: none;
+    background-color: rgba(90, 144, 197, 0.39) ;
+    padding: .8rem 3rem .8rem 1rem;
+}
+.Subscription-input button{
+    font-size: .8rem;
+    padding: .8rem 2.5rem;
+    color: white;
+    background-color: rgb(121, 226, 50);
+    border: none;
+    border-radius: .2rem;
+}
+footer{
+    height: 150px;
+    background-color: black;
+}
+.footer-area{
+    padding-top: 2rem;
+    text-align: center;
+}
+.footer-area h2{
+    font-family: 'Pacifico', cursive; ;
+    color: rgb(168, 45, 1);
+}
+.footer-area p{
+    opacity: .8;
+    color: white;
+    font-size: small;
+}
